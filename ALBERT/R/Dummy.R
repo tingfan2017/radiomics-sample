@@ -1,6 +1,6 @@
 
 
-data_dummy <- function(data){
+    Dummy <- function(data){
   # data need to change
 
   library(caret)
@@ -12,3 +12,6 @@ data_dummy <- function(data){
   return(out)
 
 }
+
+
+

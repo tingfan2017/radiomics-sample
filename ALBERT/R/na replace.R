@@ -111,3 +111,5 @@ NA_replace_train_test <-  function(data_training, data_test){
               all_data_NAN_feature = NAN_feature))
 
 }
+
+
