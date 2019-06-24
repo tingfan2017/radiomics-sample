@@ -1,9 +1,10 @@
 # Radiomics score
-radscore <- function(model,train_set,test_set){
+radscore <- function(model, train_set, test_set){
   
   # model : logistic features
   # train_set:  features
-  Data  <- data.frame(rbind(train_set,test_set))
+  test_set1 <- test_set[names(train_set)]
+  Data  <- data.frame(rbind(train_set,test_set1))
   xn <- dim(Data)[1]      # row
   yn <- dim(Data)[2]      # column
   coefPara       <- coef(model, s="lambda.min")
