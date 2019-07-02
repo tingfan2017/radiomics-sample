@@ -17,7 +17,7 @@
 Hypothesis.test <-  function(Data_complete, label_index  ){
 
   label = as.factor(Data_complete[, label_index])
-  Data0 = Data_complete[, c(1:label_index) ]
+  Data0 = Data_complete[, -c(1:label_index) ]
 
   # only value only in each label
   data0 = Data0[which(label == "0"), ]
