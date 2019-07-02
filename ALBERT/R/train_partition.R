@@ -59,8 +59,8 @@ train_partition <- function (Data, proportion){
 
   out_come_list = list(Train_set = Train_set,
                        Test_set = Test_set,
-                       train_index = train_index,
-                       test_index  = test_index,
+                       Train_index = train_index,
+                       Test_index  = test_index,
                        Train_label = train_label,
                        Test_label = test_label,
                        Data_classification_matrix = cs,
