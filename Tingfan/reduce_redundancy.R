@@ -33,3 +33,26 @@ reduce_redundancy <- function (data, threshold = 0.9){
  return(data.final)
  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
